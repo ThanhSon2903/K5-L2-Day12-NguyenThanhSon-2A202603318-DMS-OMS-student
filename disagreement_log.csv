@@ -1,0 +1,108 @@
+﻿
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.32,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra và chỉnh lại ranh giới box
+D01.png,person,seatbelt,khác giá trị (IoU=0.73),worn_incorrect,worn_correct,pending_review,Phân biệt worn_correct và worn_incorrect theo cách dây đi qua cơ thể,Đối chiếu vị trí dây và thống nhất nhãn
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D01.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D01.png,face13,count,khác số skeleton,0,1,pending_review,Chỉ gán skeleton khi khuôn mặt đủ điều kiện quan sát,Kiểm tra khuôn mặt và thống nhất số skeleton
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D02.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.35,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra và chỉnh lại ranh giới box
+D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D02.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D03.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.07,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra và chỉnh lại ranh giới box
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D03.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D03.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán phone khi có bằng chứng trực quan nhận diện được điện thoại,Kiểm tra ảnh và xác nhận đối tượng
+D03.png,face13,count,khác số skeleton,0,1,pending_review,Chỉ gán skeleton khi khuôn mặt đủ điều kiện quan sát,Kiểm tra khuôn mặt và thống nhất số skeleton
+D04.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.39,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra và chỉnh lại ranh giới box
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D04.png,phone,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán phone khi có bằng chứng trực quan nhận diện được điện thoại,Kiểm tra ảnh và xác nhận đối tượng
+D04.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D04.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D04.png,face13,right_eye_outer.occluded,khác cờ,1,0,pending_review,Occluded đánh dấu điểm mốc bị che khuất,Kiểm tra mắt phải có bị che khuất hay không
+D04.png,face13,mouth_right.outside,khác cờ,1,0,pending_review,Outside đánh dấu điểm mốc nằm ngoài khung hình,Kiểm tra tọa độ điểm mốc so với biên ảnh
+D05.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.35,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra và chỉnh lại ranh giới box
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D05.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D05.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D05.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D05.png,face13,left_eye_inner.outside,khác cờ,0,1,pending_review,Outside đánh dấu điểm mốc nằm ngoài khung hình,Kiểm tra tọa độ điểm mốc so với biên ảnh
+D05.png,face13,lip_upper.occluded,khác cờ,1,0,pending_review,Occluded đánh dấu điểm mốc bị che khuất,Kiểm tra môi trên có bị che khuất hay không
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.47,,pending_review,Box phải bao sát bàn tay nhìn thấy được,Kiểm tra và thống nhất ranh giới box
+D06.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.44,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra và thống nhất ranh giới box
+D06.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán hand khi bàn tay nhìn thấy được,Kiểm tra ảnh và xác nhận đối tượng
+D06.png,face13,nose_tip.outside,khác cờ,1,0,pending_review,Outside đánh dấu điểm mốc nằm ngoài khung hình,Kiểm tra tọa độ chóp mũi so với biên ảnh
+S01_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh IR và xác nhận khuôn mặt
+S01_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh IR và xác nhận người
+S01_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S01_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S01_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh IR và xác nhận khuôn mặt
+S01_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh IR và xác nhận người
+S01_ir.png,face13,count,khác số skeleton,1,0,pending_review,Chỉ gán skeleton khi khuôn mặt đủ điều kiện quan sát,Kiểm tra khuôn mặt và thống nhất số skeleton
+S01_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh RGB và xác nhận ghế
+S01_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh RGB và xác nhận người
+S01_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh RGB và xác nhận khuôn mặt
+S01_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán object khi nhận diện được vật thể,Kiểm tra ảnh RGB và xác nhận vật thể
+S01_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh RGB và xác nhận người
+S01_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh RGB và xác nhận ghế
+S02_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.05,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và thống nhất box
+S02_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S02_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh RGB và xác nhận ghế
+S03_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S03_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.09,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và thống nhất box
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.02,,pending_review,Chỉ gán object khi nhận diện được vật thể,Kiểm tra ảnh IR và xác nhận vật thể
+S03_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S03_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán object khi nhận diện được vật thể,Kiểm tra ảnh IR và xác nhận vật thể
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán object khi nhận diện được vật thể,Kiểm tra ảnh RGB và xác nhận vật thể
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán object khi nhận diện được vật thể,Kiểm tra ảnh RGB và xác nhận vật thể
+S03_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S03_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh RGB và xác nhận ghế
+S04_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh IR và xác nhận khuôn mặt
+S04_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh IR và xác nhận người
+S04_ir.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S04_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S04_ir.png,face13,count,khác số skeleton,1,0,pending_review,Chỉ gán skeleton khi khuôn mặt đủ điều kiện quan sát,Kiểm tra khuôn mặt và thống nhất số skeleton
+S04_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh RGB và xác nhận khuôn mặt
+S04_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh RGB và xác nhận người
+S04_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh RGB và xác nhận ghế
+S04_rgb.png,infant_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S04_rgb.png,face13,count,khác số skeleton,1,0,pending_review,Chỉ gán skeleton khi khuôn mặt đủ điều kiện quan sát,Kiểm tra khuôn mặt và thống nhất số skeleton
+S05_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S05_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.05,,pending_review,Chỉ gán object khi nhận diện được vật thể,Kiểm tra ảnh IR và xác nhận vật thể
+S05_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán object khi nhận diện được vật thể,Kiểm tra ảnh IR và xác nhận vật thể
+S05_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S05_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán object khi nhận diện được vật thể,Kiểm tra ảnh RGB và xác nhận vật thể
+S05_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S06_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S06_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S06_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S06_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh RGB và xác nhận ghế
+S07_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S07_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh IR và xác nhận người
+S07_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh IR và xác nhận khuôn mặt
+S07_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S07_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S07_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh RGB và xác nhận người
+S07_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh RGB và xác nhận khuôn mặt
+S07_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh RGB và xác nhận ghế
+S08_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh IR và xác nhận ghế
+S08_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S08_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh IR và xác nhận người
+S08_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh IR và xác nhận khuôn mặt
+S08_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Phân biệt infant_seat với child_seat theo đặc điểm và hướng ghế,Kiểm tra loại ghế và xác nhận đối tượng
+S08_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,pending_review,Chỉ gán child_seat khi nhận diện được hình dạng ghế trẻ em,Kiểm tra ảnh RGB và xác nhận ghế
+S08_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Box phải bao sát khuôn mặt nhìn thấy được,Kiểm tra ảnh RGB và xác nhận khuôn mặt
+S08_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,pending_review,Chỉ gán person khi có bằng chứng trực quan về người,Kiểm tra ảnh RGB và xác nhận người
